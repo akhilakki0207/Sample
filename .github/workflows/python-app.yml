@@ -1,4 +1,4 @@
-name: test_prime_checker.py
+name: Python Unit Tests
 
 on:
   push:
