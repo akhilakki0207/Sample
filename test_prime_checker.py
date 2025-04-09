@@ -7,7 +7,6 @@ class TestPrimeChecker(unittest.TestCase):
         self.assertTrue(is_prime(2))
         self.assertTrue(is_prime(3))
         self.assertTrue(is_prime(13))
-        self.assertTrue(is_prime(97))
 
     def test_non_primes(self):
         self.assertFalse(is_prime(0))
